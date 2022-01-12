@@ -1,9 +1,9 @@
 class Ninja{
-    constructor(name,health = 15){
+    constructor(name,health = 15, speed = 3, strength = 3){
         this.name = name
         this.health = health
-        this.speed = 3
-        this.strength = 3
+        this.speed = speed
+        this.strength = strength
     }
     sayName(){
         console.log(`My name is ${this.name}`)
